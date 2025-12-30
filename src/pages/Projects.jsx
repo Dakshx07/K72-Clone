@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import ProjectCard from '../components/projects/ProjectCard'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import {ScrollTrigger} from 'gsap/all'
+import { NavColorContext } from '../../context/NavContext'
 
 const Projects = () => {
+
 
   const projectsImg=[
     {

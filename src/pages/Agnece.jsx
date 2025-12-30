@@ -58,17 +58,17 @@ console.log(imageArray);
   return (
    <div>
        <div className='section1 py-1'>
-      <div ref={imagedivRef} className='h-[20vw] overflow-hidden w-[15vw] top-55 absolute left-[30vw] rounded-2xl'>
+      <div ref={imagedivRef} className='lg:h-[20vw] h-[35vw] overflow-hidden lg:w-[15vw] w-[25vw] lg:top-55 -top-7 absolute lg:left-[30vw] left-[30vw] lg:rounded-2xl rounded-xl'>
         <img ref={imageRef} className='h-full object-cover w-full' src="https://k72.ca/images/teamMembers/Carl_480x640.jpg?w=480&h=640&fit=crop&s=f0a84706bc91a6f505e8ad35f520f0b7" alt="" />
       </div>
       <div className='relative font-[font2]'>
-      <div className=' mt-[55vh]'>
+      <div className=' lg:mt-[55vh] mt-[30vh]'>
         <h1 className='text-[20.5vw] text-center leading-[18vw] uppercase text-black'>SEVEN7Y <br />
           TWO</h1>
       </div>
 
-      <div className='pl-[40%] mt-5 text-black'>
-        <p className='text-5xl'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  We’re inquisitive and open-minded, and we make sure creativity crowds out ego from every corner. A brand is a living thing, with values, a personality and a story. If we ignore that, we can achieve short-term success, but not influence that goes the distance. We bring that &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  perspective to every brand story we help tell.</p>
+      <div className='lg:pl-[40%] lg:mt-5 mt-15 text-black p-3'>
+        <p className='lg:text-5xl text-xl leading-tight'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  We’re inquisitive and open-minded, and we make sure creativity crowds out ego from every corner. A brand is a living thing, with values, a personality and a story. If we ignore that, we can achieve short-term success, but not influence that goes the distance. We bring that  perspective to every brand story we help tell.</p>
       </div>
     </div>
     </div>
