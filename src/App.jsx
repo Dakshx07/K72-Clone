@@ -11,7 +11,7 @@ const App = () => {
 
 
   return (
-    <div className='text-white text-6xl'>
+    <div className=' text-6xl overflow-x-hidden'>
       <Navbar />
       <FullScreenNav />
       <Routes>

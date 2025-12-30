@@ -9,8 +9,13 @@
   src: url(../public/fonts/Lausanne-500.woff2);
 }
 
+*::selection{
+  color: black;
+  background-color: #D3FD50;
+}
+
 body{
-  background-color: rgb(161, 167, 187);
+  background-color: rgb(181, 166, 166);
 }
 
 
